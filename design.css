@@ -1,0 +1,13 @@
+/* Switch styles */
+#emailSwitch {
+  padding: 5px 10px;
+  background: #ccc;
+  border: none;
+  color: #000;
+  cursor: pointer;
+  border-radius: 20px;
+}
+#emailSwitch[aria-checked="true"] {
+  background: #4caf50;
+  color: #fff;
+}
